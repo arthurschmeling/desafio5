@@ -1,0 +1,28 @@
+package javaapplication78;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+
+public class JavaApplication78 {
+
+    
+    public static void main(String[] args) {
+      Scanner ler = new Scanner(System.in);
+        DecimalFormat decimal = new DecimalFormat("0.00");  
+        //variaveis//
+        int numeros;
+        //dados//
+        numeros = 1000;
+        //processamneto//
+        while(numeros<= 1999){
+            if (numeros % 11 ==5){
+                System.out.println("numeros: "+numeros);
+            }
+            numeros++;
+        }
+    }
+    
+}
+
+
